@@ -4,6 +4,7 @@ body {
     text-transform: uppercase;
     font-size: 24px;
     font-style: italic;
+    text-decoration: underline;
 }
 
 .container {
@@ -43,17 +44,48 @@ body {
 .blue {
     background-color: blue;
     grid-column: 3/4;
-    grid-row: 3/4;
+    grid-row: 3/4;    
+    color: yellow;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .yellow {
     background-color: yellow;
     grid-column: 4/5;
     grid-row: 4/5;
+    color: blue;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .pink {
     background-color: pink;
     grid-column: 5/6;
+    grid-row: 5/6;
+}
+
+.red1 {
+    background-color: red;
+    grid-column: 5/6;
+}
+
+.green1 {
+    background-color: green;
+    grid-column: 4/5;
+}
+
+.yellow1 {
+    background-color: yellow;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    color: blue;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.pink1 {
+    background-color: pink;
+    grid-column: 1/2;
     grid-row: 5/6;
 }
